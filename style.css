@@ -1,0 +1,511 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*------------ Header Section Start ------------*/
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+}
+
+div#navbarNavAltMarkup {
+    justify-content: end;
+    align-items: center;
+}
+
+a.nav-link {
+    width: 104px;
+    height: 43px;
+    text-align: center;
+    top: 25px;
+}
+
+a.nav-link:hover {
+    color: #FFFFFF !important;
+    background-color: #21B573;
+    border-radius: 25px;
+}
+
+a.nav-link.active {
+    color: #FFFFFF !important;
+    background-color: #21B573;
+    border-radius: 25px;
+}
+
+#header {
+    background-color: #F0FFF0;
+}
+
+#header img.logo {
+    width: 157px;
+}
+
+.btn1 {
+    background-color: #21B573;
+    color: #FFFFFF;
+    border-radius: 25px;
+}
+
+.red {
+    color: #FD511A;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.home h2 {
+    color: #000000;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.home span {
+    color: #21B573;
+}
+
+.home p {
+    font-size: 16px;
+    color: #6C6B6B;
+    width: 400px;
+    line-height: 36px;
+}
+
+.home img.img-fluid {
+    width: 554px;
+    height: 346px;
+    left: 691px;
+    top: 157px;
+}
+
+.home div {
+    flex-wrap: wrap;
+}
+
+
+/*------------ Books Section Start ------------*/
+.b-content div {
+    width: 240px;
+    height: 240px;
+    background-color: #F8FFFB;
+    text-align: center;
+    border-radius: 10px;
+    padding: 37px 0;
+    cursor: pointer;
+    margin-bottom: 27px;
+    transition: all 0.3s ease-in-out;
+}
+
+.b-content div:hover {
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 10px 6px #ccc;
+}
+
+#books .b-content.d-flex {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.books img {
+    width: 66px;
+}
+
+.books h4 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #413960;
+}
+
+.books span {
+    font-weight: 400;
+    font-size: 16px;
+    color: #585859;
+}
+
+/*------------ Courses Section Start ------------*/
+.courses .card-group {
+    flex-wrap: wrap;
+}
+
+.courses h2,
+.testimonial h2,
+.blog h2 {
+    color: #413960;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.courses .card {
+    background: #FFFFFF;
+    border-radius: 18px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border: none;
+    flex-wrap: wrap;
+}
+
+.courses .card .card-footer {
+    border-top: none;
+    background-color: #FFFFFF;
+}
+
+.courses img.card-img-top {
+    width: 90%;
+    margin: auto;
+    margin-top: 17px;
+}
+
+.courses .card h5 {
+    color: #413960;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.courses .card p {
+    color: #585859;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.courses .btn {
+    font-size: 13px;
+}
+
+.courses .card-footer p {
+    color: #585859;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/*------------ Blog Section Start ------------*/
+.blog p {
+    color: #6c757d;
+    font-size: 16px;
+    /* line-height: 11px; */
+}
+
+.blog .col-md-4 img {
+    width: 177px;
+}
+
+.blog h2 {
+    position: relative;
+    width: 150px;
+    margin: auto;
+}
+
+.blog h2::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 7px;
+    background-color: orange;
+    top: 37px;
+    left: 40px;
+    border-radius: 10px;
+}
+
+/*------------ Footer Section Start ------------*/
+.footer {
+    background-color: #282531;
+    color: #FFFFFF;
+}
+
+.footer ul li {
+    list-style-type: none;
+}
+
+.footer .col-md-4 p {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.footer .col-md-2 h6 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.footer .col-md-2 ul li {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+footer {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: #CDCDCD;
+}
+
+/*------------ Contact Section Start ------------*/
+#sign {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign form {
+    display: flex;
+    width: 70%;
+    height: 60vh;
+    background-color: #1a1a1a;
+    box-shadow: 2px 12px 20px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+}
+
+.contact-left {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-right {
+    width: 60%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.contact-left-h {
+    font-family: calibri;
+    color: #FFFFFF;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.f-name,
+.f-email {
+    display: flex;
+    flex-direction: column;
+    font-family: calibri;
+}
+
+.f-name font,
+.f-email font {
+    color: #bfbfbf;
+    font-size: 22px;
+}
+
+.f-name input,
+.f-email input {
+    height: 30px;
+    width: 250px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #929292;
+    color: #FFFFFF;
+    margin: 10px 0px;
+}
+
+.f-name input::placeholder,
+.f-email input::placeholder {
+    opacity: 0.5;
+    letter-spacing: 1px;
+}
+
+.f-name input:focus,
+.f-email input:focus {
+    border-bottom: 1px solid #FF6F61;
+    transition: all ease 0.5s;
+}
+
+.message font {
+    font-size: 18px;
+    color: #4e4e4e;
+    font-family: calibri;
+}
+
+.message {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-right textarea {
+    width: 100%;
+    height: 320px !important;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    color: #ebebeb;
+    font-size: 16px;
+}
+
+.contact-right textarea::placeholder {
+    color: #ebebeb;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: calibri;
+}
+
+.contact-right button {
+    width: 100%;
+    height: 50px;
+    background-color: #FF6F61;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    margin: 0px;
+    color: #FFFFFF;
+    font-size-adjust: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+/*------------ Media Query Start ------------*/
+@media (max-width: 1199.98px) {
+    .courses .card h5 {
+        font-size: 20px;
+    }
+
+    .courses .card-footer p {
+        font-size: 12px;
+    }
+
+    #sign form {
+        width: 95% !important;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    .home p {
+        width: 100%;
+    }
+
+    .home h2 {
+        font-size: 37px;
+    }
+
+    .courses .card h5 {
+        font-size: 14px;
+    }
+
+    .courses .card p {
+        font-size: 13px;
+    }
+
+    .courses .card .card-footer {
+        flex-direction: column;
+    }
+
+    #sign {
+        padding: 20px;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    #sign form {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        width: 90% !important;
+    }
+
+    .contact-left,
+    .contact-right {
+        width: 100%;
+        border: none;
+    }
+
+    .f-name,
+    .f-email {
+        width: 100%;
+    }
+
+    .f-name input,
+    .f-email input {
+        width: 100%;
+        border: none;
+        background-color: #262626 !important;
+        padding: 10px;
+        box-sizing: border-box;
+        height: 40px;
+    }
+
+    textarea {
+        background-color: #262626 !important;
+        margin: 10px 0px;
+        padding: 10px;
+        height: 200px !important;
+        width: 100% !important;
+    }
+
+    .message {
+        margin: 0px;
+    }
+
+    #sign form h1 {
+        margin: 5px 0px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .home div {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    button.btn.btn1 {
+        width: 67%;
+    }
+
+    .home img.img-fluid {
+        margin-top: 57px;
+    }
+
+    .courses .card .card-footer {
+        flex-direction: row;
+    }
+
+    .courses .card h5 {
+        font-size: 24px;
+    }
+
+    .courses .card p {
+        font-size: 16px;
+    }
+
+    .courses button.btn.btn1 {
+        width: 100%;
+    }
+
+    .blog .col-md-4 {
+        justify-content: center !important;
+        margin-bottom: 27px;
+    }
+
+    .blog p {
+        text-align: center;
+    }
+
+    .blog .col-md-4 img {
+        width: 250px;
+    }
+
+    .footer .col-md-4.mb-5 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .home h2 {
+        font-size: 27px;
+    }
+    footer{
+        font-size: 13px;
+    }
+}
